@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rifqi's Web</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="script.js" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/48c7a0e1cb.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!--nav bar-->
+    <nav>
+      <img src="img/RIFAZz.png" class="logo" />
+      <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Project</a></li>
+        <li><a href="#portfolio">Documentation</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <!--end nav bar-->
+    <section>
+      <div id="header">
+        <div class="container reveal">
+          <div class="header-text">
+            <p>Electrical Engineer</p>
+            <h1>
+              Hi, I'm Muhammad<br />
+              <span>Rifqi</span> Nur Aziz
+            </h1>
+            <p>UPN Veteran Jakarta</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------------about me---------------->
+    <section>
+      <div id="about">
+        <div class="container reveal">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="img/Mea.png" />
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>
+                Saya Muhammad Rifqi Nur Aziz, mahasiswa aktif jurusan Teknik Elektro UPN “Veteran” Jakarta semester 4 dengan IPK 3,68. Saya mengambil peminatan Elektronika dan Kendali. Saya berminat dalam bidang automasi dan sistem kontrol,
+                khususnya pada Internet of Things (IoT) dan pemanfaatannya dalam dunia industri. Saya ingin menambah pengalaman dan mengasah kemampuan saya melalui KSM IoT ini.
+              </p>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('skills')">Skills</p>
+              </div>
+              <div class="tab-contents active-tab" id="education">
+                <ul>
+                  <li><span>2022 - NOW</span><br />Mahasiswa Aktif Teknik Elektro UPN Veteran Jakarta dengan IPK 3.68</li>
+                  <li><span>2019 - 2022</span><br />SMAN 44 Jakarta Penjurusan MIPA dengan nilai rata-rata kelulusan 87.9</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>3 AGUSTUS 2023- 11 AGUSTUS 2023</span><br />Staff Divisi Mentor PKKMB FT</li>
+                  <li><span>OKTOBER 2023-NOVEMBER 2023</span><br />Asisten Laboratorium Sistem Digital</li>
+                  <li><span>27 OKTOBER 2023</span><br />Staff Divisi Logistik Webinar : Zero Emission</li>
+                  <li><span>27 OKTOBER 2023 - 29 NOVEMBER 2023</span><br />Project Based Learning Kepemimpinan : PJ Penulisan Artikel</li>
+                  <li><span>14 DESEMBER 2023 - NOW</span><br />Staff Divisi Software Engineer : KSM IoT</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="skills">
+                <ul>
+                  <li><span>Leadership</span><br />Kemampuan mengkoordinir anggota</li>
+                  <li><span>Problem Solving</span><br />Kemampuan memecahkan suatu masalah</li>
+                  <li><span>Teamwork</span><br />Kemampuan kolaborasi dengan rekan kerja</li>
+                  <li><span>HTML & CSS</span><br />Membuat CV dan WEB Portfolio</li>
+                  <li><span>Desain Grafis</span><br />Adobe Illustrator, Adobe Photoshop, & Canva</li>
+                  <li><span>Microsoft Word & Excel</span><br />Membuat Keperluan berkas dan perhitungan data</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------- project -------- -->
+    <section>
+      <div id="projects">
+        <div class="container reveal">
+          <h1 class="sub-title">My Project Assignment</h1>
+          <div class="projects-list">
+            <div>
+              <i class="fa-solid fa-globe"></i>
+              <h2>Graphic Design</h2>
+              <p>Membuat suatu desain grafis menggunakan software adobe Illustrator dan canva</p>
+              <a href="#">Learn More</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-microchip"></i>
+              <h2>PCB Design</h2>
+              <p>Membuat dan mendesain suatu PCB menggunakan software Eagle dan Easyda</p>
+              <a href="#">Learn More</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-code-compare"></i>
+              <h2>Circuits Design</h2>
+              <p>Membuat dan mendesain suatu rangkaian elektronika menggunakan beberapa software seperti Proteus dan TinkerCad</p>
+              <a href="#">Learn More</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-code-compare"></i>
+              <h2>Web Design</h2>
+              <p>Membuat desain web menggunakan HTML dan CSS</p>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- documentation-->
+    <section>
+      <div id="portfolio">
+        <div class="container reveal">
+          <h1 class="sub-title">Experience Documentation</h1>
+          <div class="documentation-list">
+            <div class="documentation">
+              <img src="img/chillxs.png" alt="Running LED Circuit" />
+              <div class="layer">
+                <h3>Graphic Design</h3>
+                <p>Ini adalah fake project yang saya kerjakan berdasarkan ide dan inspirasi saya</p>
+              </div>
+            </div>
+            <div class="documentation">
+              <img src="img/eagle.png" alt="Running LED Circuit" />
+              <div class="layer">
+                <h3>PCB Design</h3>
+                <p>Project dari praktikum dasar Elektronika, yaitu membuat PCB mulai dari desain rangkaian sampai ke PCB siap pakai</p>
+              </div>
+            </div>
+            <div class="documentation">
+              <img src="img/alat.png" alt="Running LED Circuit" />
+              <div class="layer">
+                <h3>Circuit Design</h3>
+                <p>Project pengganti evaluasi praktikum sistem digital yaitu membuat rangkaian 'Running LED'</p>
+              </div>
+            </div>
+            <div class="documentation">
+              <img src="img/proto.png" alt="Running LED Circuit" />
+              <div class="layer">
+                <h3>Web Design</h3>
+                <p>Project dari KSM IoT yaitu membuat web portfolio sederhana</p>
+              </div>
+            </div>
+            <div class="documentation">
+              <img src="img/PKKMB FT.JPG" alt="Running LED Circuit" />
+              <div class="layer">
+                <h3>Pengalaman Kepanitiaan</h3>
+                <p>Dokumentasi saya dari Program kerja BEM FT yaitu PKKMB FT sebagai staff divisi mentor</p>
+              </div>
+            </div>
+            <div class="documentation">
+              <img src="img/WEBINAR.png" alt="Running LED Circuit" />
+              <div class="layer">
+                <h3>Pengalaman Kepanitiaan</h3>
+                <p>Dokumentasi saya dari Program kerja HMTE UPNVJ yaitu Webinar Zero Emission sebagai staff divisi Logistik</p>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn">See more</a>
+        </div>
+        <!-------contact------->
+        <div id="contact">
+          <div class="container reveal">
+            <div class="row">
+              <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>rifqiazz69@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0858 8377 5145</p>
+                <div class="social-icons">
+                  <a href="https://youtube.com/@muhammadrifqi1068?si=UQY4w3WLLH2daSvb"><i class="fa-brands fa-youtube"></i></a>
+                  <a href="https://www.instagram.com/rifqi.azz_?igsh=dWt1M3Axd3ZrbXY2"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://line.me/ti/p/BbefSmFtt-"><i class="fa-brands fa-line"></i></a>
+                  <a href="https://www.linkedin.com/in/muhammad-rifqi-nur-aziz-884495259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin-in"></i></a>
+                  <a href="https://twitter.com/Razzzizz6"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <a href="img/MyCV.pdf" download class="btn btn2">Download CV</a>
+              </div>
+              <div class="contact-right">
+                <form>
+                  <input type="text" name="Name" placeholder="Your Name" required />
+                  <input type="email" name="Email" placeholder="Your Email" required />
+                  <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                  <button type="submit" class="btn btn2">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright © Rifqi. Source : <i class="fa-brands fa-youtube"></i>GreatStack</p>
+        </div>
+      </div>
+    </section>
+    <script>
+      var tablinks = document.getElementsByClassName('tab-links');
+      var tabcontents = document.getElementsByClassName('tab-contents');
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove('active-link');
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove('active-tab');
+        }
+        event.currentTarget.classList.add('active-link');
+        document.getElementById(tabname).classList.add('active-tab');
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById('sidemenu');
+      function openmenu() {
+        sidemenu.style.right = '0';
+      }
+      function closemenu() {
+        sidemenu.style.right = '-200px';
+      }
+    </script>
+    <script type="text/javascript">
+      window.addEventListener('scroll', reveal);
+      function reveal() {
+        var reveals = document.querySelectorAll('.reveal');
+
+        for (var i = 0; i < reveals.length; i++) {
+          var windowheight = window.innerHeight;
+          var revealtop = reveals[i].getBoundingClientRect().top;
+          var revealpoint = 150;
+
+          if (revealtop < windowheight - revealpoint) {
+            reveals[i].classList.add('active');
+          } else {
+            reveals[i].classList.remove('active');
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
